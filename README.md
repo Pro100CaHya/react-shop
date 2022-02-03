@@ -21,10 +21,13 @@ const response = await axios.get("http://localhost:5000");
 Теперь можно запустить серверную часть:
 ```
 cd server
+yarn install
 yarn start
 ```
 И клиентскую:
 ```
 cd client
+yarn install
 yarn start
 ```
+Также вместо `yarn` можно использовать `npm`
