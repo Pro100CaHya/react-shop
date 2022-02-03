@@ -1,0 +1,44 @@
+.items
+    margin: 20px 0
+
+    &__content
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+
+    &__message
+        text-transform: uppercase
+        letter-spacing: 0.1em
+        text-align: center
+        border-radius: 10px
+        padding: 15px
+
+        &_error
+            background: #ffbfbf
+            color: #920000
+            border: 3px solid #ff4949
+
+        &-title
+            margin: 0 0 20px
+
+        &-text
+            margin: 0
+
+        &_warning
+            border: 3px solid #b86e00
+            background: #ffe6c2
+            color: #8a5300
+
+
+@media screen and (max-width: 768px)
+
+    .items
+
+        &__content
+            grid-template-columns: 1fr 1fr
+
+@media screen and (max-width: 480px)
+
+    .items
+
+        &__content
+            grid-template-columns: 1fr

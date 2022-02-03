@@ -1,0 +1,117 @@
+.item
+    display: flex
+    flex-direction: column
+    align-items: center
+    background: #ffffff
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.12)
+    border-radius: 10px
+    padding: 10px 10px 20px
+    margin: 15px
+
+    &_load
+        background: #c0c0c0
+
+    &__add-button
+        display: block
+        margin: 0 0 0 auto
+
+    &__image
+        width: 200px
+        height: 200px
+
+    &__name
+        font-size: 1.2rem
+        font-weight: bold
+        color: #000000
+        margin: 10px 0
+
+    &__description
+        margin: 0 0 10px
+        font-size: 1.1rem
+        color: #000000
+        text-align: center
+
+    &__price
+        margin: 0 0 10px
+        font-size: 1.3rem
+        letter-spacing: 0.1em
+        font-weight: bold
+        color: #000000
+
+    &__color-selector
+        margin: 0 0 10px
+        display: flex
+        align-items: center
+
+    &__color
+        width: 22px
+        height: 22px
+        margin: 0 3px
+        border-radius: 50%
+        border: 1px solid #000
+        cursor: pointer
+
+        &_active
+            outline: 3px solid #00d684
+            outline-offset: -3px
+
+        &_black
+            background: #000000
+
+        &_blue
+            background: #0099ff
+
+        &_dark-blue
+            background: #003e68
+
+        &_green
+            background: #009e3d
+
+        &_grey
+            background: #8f8f8f
+
+        &_purple
+            background: #df00cc
+        
+        &_red
+            background: #ff1c1c
+
+        &_white
+            background: #ffffff
+
+        &_yellow
+            background: #fbff00
+
+    &__memory-selector
+        display: flex
+        background: #cfcfcf
+        border-radius: 5px
+        padding: 3px
+
+    &__memory
+        padding: 2px 10px
+        font-size: 1.25rem
+        font-weight: 500
+        color: #000000
+        cursor: pointer
+
+        &_active
+            background: #fff
+            border-radius: 5px
+
+@media screen and (max-width: 568px)
+
+    .item
+        margin: 10px
+
+        &__image
+            width: 160px
+            height: 160px
+
+@media screen and (max-width: 480px)
+
+    .item
+
+        &__image
+            width: 200px
+            height: 200px

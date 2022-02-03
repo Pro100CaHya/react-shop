@@ -1,0 +1,143 @@
+.cart-item
+    display: flex
+    margin: 15px 0
+
+    &__image
+        width: 150px
+        height: 150px
+
+    &__text
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+    &__title
+        font-size: 1.4rem
+        font-weight: bold
+        margin: 0
+
+    &__count
+        font-size: 1.4rem
+        margin: 0
+
+        &_medium
+            font-weight: 500
+            margin: 0 10px 0 0
+
+    &__color
+        font-size: 1.3rem
+        margin: 0
+        font-weight: 400
+        display: flex
+        align-items: center
+
+        &_medium
+            font-weight: 500
+            margin: 0 10px 0 0
+
+        &-circle
+            display: inline-block
+            width: 20px
+            height: 20px
+            background: red
+            border-radius: 50%
+            margin: 0 0 0 5px
+            border: 1px solid #000
+
+            &_black
+                background: #000000
+
+            &_blue
+                background: #0099ff
+
+            &_dark-blue
+                background: #003e68
+
+            &_green
+                background: #009e3d
+
+            &_grey
+                background: #8f8f8f
+
+            &_purple
+                background: #df00cc
+
+            &_red
+                background: #ff1c1c
+
+            &_white
+                background: #ffffff
+
+            &_yellow
+                background: #fbff00
+
+    &__memory
+        font-size: 1.3rem
+        margin: 0
+        font-weight: 400
+
+        &_medium
+            font-weight: 500
+            margin: 0 10px 0 0
+
+    &__price
+        margin: 0
+        font-size: 1.3rem
+        font-weight: 400
+
+    &__button
+        width: 22px
+        height: 22px
+        margin: 0 0 0 auto
+
+.cart-price
+    background: #ffffff
+    padding: 20px 15px
+    display: flex
+    justify-content: space-between
+    letter-spacing: 0.1em
+
+    &__title
+        font-weight: bold
+        font-size: 1.4rem
+        margin: 0
+
+    &__total-price
+        font-weight: 500
+        font-size: 1.35rem
+        margin: 0
+
+@media screen and (max-width: 425px)
+
+    .cart-item
+
+        &__image
+            width: 120px
+            height: 120px
+
+        &__count
+
+            &_medium
+                font-weight: 500
+                margin: 0 3px 0 0
+
+        &__color
+
+            &_medium
+                font-weight: 500
+                margin: 0 3px 0 0
+
+            &-circle
+                width: 14px
+                height: 14px
+                margin: 0 0 0 3px
+
+        &__memory
+
+            &_medium
+                font-weight: 500
+                margin: 0 3px 0 0
+
+        &__button
+            width: 18px
+            height: 18px
