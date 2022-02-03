@@ -1,6 +1,6 @@
 # React Shop Client (frontend)
 
-Клиентская часть проекта React Shop. Проект выполнен в целях знакомства с библиотекой ReactJS. Полученные навыки:
+Клиентская часть проекта [React Shop](https://github.com/Pro100CaHya/react-shop). Проект выполнен в целях знакомства с библиотекой ReactJS. Полученные навыки:
 
 - Знакомство с синтаксисом JSX
 - Работа с Virtual DOM
